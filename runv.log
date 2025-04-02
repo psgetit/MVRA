@@ -1,0 +1,957 @@
+Checking GPU availability...
+4
+['train_llama_mova.py', 'ScienceQA', 'sgd', 'normal']
+quantization_config
+AutoModelForCausalLM
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.90s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.09s/it]
+lora_config
+get_peft_model
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+building expert 0
+building expert 1
+building expert 2
+building expert 3
+building expert 4
+building expert 5
+building expert 6
+building expert 7
+Using Optimizer SGD
+learning rate:  5e-05
+Using Optimizer SGD
+learning rate:  3e-07
+
+---training---
+
+Total gradient update steps: 64
+Accumulated steps: 2
+Training samples per epoch: 78
+Epoch 1/1:   0%|          | 0/78 [00:00<?, ?it/s]/home/e/e1344659/miniconda3/envs/moelora/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:745: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Epoch 1/1:   0%|          | 0/78 [01:32<?, ?it/s, mem_alloc=3457.17 MB, mem_reserved=46734.00 MB]Epoch 1/1:   1%|▏         | 1/78 [01:32<1:58:10, 92.09s/it, mem_alloc=3457.17 MB, mem_reserved=46734.00 MB]Epoch 1/1:   1%|▏         | 1/78 [03:04<1:58:10, 92.09s/it, elapsed=0:03:04, loss=2.6478, lr=[2.9577464788732395e-07, 4.929577464788733e-05]]Epoch 1/1:   3%|▎         | 2/78 [03:04<1:56:44, 92.16s/it, elapsed=0:03:04, loss=2.6478, lr=[2.9577464788732395e-07, 4.929577464788733e-05]]Epoch 1/1:   4%|▍         | 3/78 [04:36<1:55:10, 92.14s/it, elapsed=0:03:04, loss=2.6478, lr=[2.9577464788732395e-07, 4.929577464788733e-05]]Epoch 1/1:   4%|▍         | 3/78 [06:08<1:55:10, 92.14s/it, elapsed=0:06:08, loss=2.6428, lr=[2.9154929577464786e-07, 4.8591549295774653e-05]]Epoch 1/1:   5%|▌         | 4/78 [06:08<1:53:38, 92.14s/it, elapsed=0:06:08, loss=2.6428, lr=[2.9154929577464786e-07, 4.8591549295774653e-05]]Epoch 1/1:   6%|▋         | 5/78 [07:40<1:52:06, 92.14s/it, elapsed=0:06:08, loss=2.6428, lr=[2.9154929577464786e-07, 4.8591549295774653e-05]]Epoch 1/1:   6%|▋         | 5/78 [09:12<1:52:06, 92.14s/it, elapsed=0:09:12, loss=2.6627, lr=[2.873239436619718e-07, 4.788732394366197e-05]]  Epoch 1/1:   8%|▊         | 6/78 [09:12<1:50:34, 92.15s/it, elapsed=0:09:12, loss=2.6627, lr=[2.873239436619718e-07, 4.788732394366197e-05]]Epoch 1/1:   9%|▉         | 7/78 [10:45<1:49:02, 92.14s/it, elapsed=0:09:12, loss=2.6627, lr=[2.873239436619718e-07, 4.788732394366197e-05]]Epoch 1/1:   9%|▉         | 7/78 [12:17<1:49:02, 92.14s/it, elapsed=0:12:17, loss=2.6483, lr=[2.8309859154929574e-07, 4.71830985915493e-05]]Epoch 1/1:  10%|█         | 8/78 [12:17<1:47:29, 92.13s/it, elapsed=0:12:17, loss=2.6483, lr=[2.8309859154929574e-07, 4.71830985915493e-05]]Epoch 1/1:  10%|█         | 8/78 [13:49<1:47:29, 92.13s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                 Epoch 1/1:  12%|█▏        | 9/78 [13:49<1:45:57, 92.14s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  12%|█▏        | 9/78 [15:21<1:45:57, 92.14s/it, elapsed=0:15:21, loss=2.6611, lr=[2.788732394366197e-07, 4.647887323943662e-05]]Epoch 1/1:  13%|█▎        | 10/78 [15:21<1:44:25, 92.14s/it, elapsed=0:15:21, loss=2.6611, lr=[2.788732394366197e-07, 4.647887323943662e-05]]Epoch 1/1:  14%|█▍        | 11/78 [16:53<1:42:52, 92.12s/it, elapsed=0:15:21, loss=2.6611, lr=[2.788732394366197e-07, 4.647887323943662e-05]]Epoch 1/1:  14%|█▍        | 11/78 [18:25<1:42:52, 92.12s/it, elapsed=0:18:25, loss=2.6648, lr=[2.7464788732394367e-07, 4.577464788732395e-05]]Epoch 1/1:  15%|█▌        | 12/78 [18:25<1:41:20, 92.13s/it, elapsed=0:18:25, loss=2.6648, lr=[2.7464788732394367e-07, 4.577464788732395e-05]]Epoch 1/1:  17%|█▋        | 13/78 [19:57<1:39:48, 92.13s/it, elapsed=0:18:25, loss=2.6648, lr=[2.7464788732394367e-07, 4.577464788732395e-05]]Epoch 1/1:  17%|█▋        | 13/78 [21:29<1:39:48, 92.13s/it, elapsed=0:21:29, loss=2.6411, lr=[2.704225352112676e-07, 4.507042253521127e-05]] Epoch 1/1:  18%|█▊        | 14/78 [21:29<1:38:15, 92.12s/it, elapsed=0:21:29, loss=2.6411, lr=[2.704225352112676e-07, 4.507042253521127e-05]]Epoch 1/1:  19%|█▉        | 15/78 [23:01<1:36:43, 92.11s/it, elapsed=0:21:29, loss=2.6411, lr=[2.704225352112676e-07, 4.507042253521127e-05]]Epoch 1/1:  19%|█▉        | 15/78 [24:34<1:36:43, 92.11s/it, elapsed=0:24:34, loss=2.6327, lr=[2.6619718309859155e-07, 4.436619718309859e-05]]Epoch 1/1:  21%|██        | 16/78 [24:34<1:35:11, 92.12s/it, elapsed=0:24:34, loss=2.6327, lr=[2.6619718309859155e-07, 4.436619718309859e-05]]Epoch 1/1:  21%|██        | 16/78 [26:06<1:35:11, 92.12s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                  Epoch 1/1:  22%|██▏       | 17/78 [26:06<1:33:38, 92.11s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  22%|██▏       | 17/78 [27:38<1:33:38, 92.11s/it, elapsed=0:27:38, loss=2.6216, lr=[2.6197183098591546e-07, 4.366197183098591e-05]]Epoch 1/1:  23%|██▎       | 18/78 [27:38<1:32:07, 92.12s/it, elapsed=0:27:38, loss=2.6216, lr=[2.6197183098591546e-07, 4.366197183098591e-05]]Epoch 1/1:  24%|██▍       | 19/78 [29:10<1:30:34, 92.12s/it, elapsed=0:27:38, loss=2.6216, lr=[2.6197183098591546e-07, 4.366197183098591e-05]]Epoch 1/1:  24%|██▍       | 19/78 [30:42<1:30:34, 92.12s/it, elapsed=0:30:42, loss=2.6487, lr=[2.5774647887323943e-07, 4.295774647887324e-05]]Epoch 1/1:  26%|██▌       | 20/78 [30:42<1:29:03, 92.13s/it, elapsed=0:30:42, loss=2.6487, lr=[2.5774647887323943e-07, 4.295774647887324e-05]]Epoch 1/1:  27%|██▋       | 21/78 [32:14<1:27:31, 92.13s/it, elapsed=0:30:42, loss=2.6487, lr=[2.5774647887323943e-07, 4.295774647887324e-05]]Epoch 1/1:  27%|██▋       | 21/78 [33:46<1:27:31, 92.13s/it, elapsed=0:33:46, loss=2.6644, lr=[2.5352112676056334e-07, 4.225352112676056e-05]]Epoch 1/1:  28%|██▊       | 22/78 [33:46<1:25:59, 92.13s/it, elapsed=0:33:46, loss=2.6644, lr=[2.5352112676056334e-07, 4.225352112676056e-05]]Epoch 1/1:  29%|██▉       | 23/78 [35:18<1:24:26, 92.13s/it, elapsed=0:33:46, loss=2.6644, lr=[2.5352112676056334e-07, 4.225352112676056e-05]]Epoch 1/1:  29%|██▉       | 23/78 [36:51<1:24:26, 92.13s/it, elapsed=0:36:51, loss=2.6565, lr=[2.492957746478873e-07, 4.154929577464789e-05]] Epoch 1/1:  31%|███       | 24/78 [36:51<1:22:54, 92.13s/it, elapsed=0:36:51, loss=2.6565, lr=[2.492957746478873e-07, 4.154929577464789e-05]]Epoch 1/1:  31%|███       | 24/78 [38:23<1:22:54, 92.13s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                 Epoch 1/1:  32%|███▏      | 25/78 [38:23<1:21:23, 92.14s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  32%|███▏      | 25/78 [39:55<1:21:23, 92.14s/it, elapsed=0:39:55, loss=2.6432, lr=[2.4507042253521127e-07, 4.0845070422535214e-05]]Epoch 1/1:  33%|███▎      | 26/78 [39:55<1:19:51, 92.14s/it, elapsed=0:39:55, loss=2.6432, lr=[2.4507042253521127e-07, 4.0845070422535214e-05]]Epoch 1/1:  35%|███▍      | 27/78 [41:27<1:18:18, 92.12s/it, elapsed=0:39:55, loss=2.6432, lr=[2.4507042253521127e-07, 4.0845070422535214e-05]]Epoch 1/1:  35%|███▍      | 27/78 [42:59<1:18:18, 92.12s/it, elapsed=0:42:59, loss=2.6330, lr=[2.4084507042253524e-07, 4.014084507042254e-05]] Epoch 1/1:  36%|███▌      | 28/78 [42:59<1:16:46, 92.13s/it, elapsed=0:42:59, loss=2.6330, lr=[2.4084507042253524e-07, 4.014084507042254e-05]]Epoch 1/1:  37%|███▋      | 29/78 [44:31<1:15:14, 92.14s/it, elapsed=0:42:59, loss=2.6330, lr=[2.4084507042253524e-07, 4.014084507042254e-05]]Epoch 1/1:  37%|███▋      | 29/78 [46:03<1:15:14, 92.14s/it, elapsed=0:46:03, loss=2.6467, lr=[2.3661971830985912e-07, 3.943661971830986e-05]]Epoch 1/1:  38%|███▊      | 30/78 [46:03<1:13:43, 92.15s/it, elapsed=0:46:03, loss=2.6467, lr=[2.3661971830985912e-07, 3.943661971830986e-05]]Epoch 1/1:  40%|███▉      | 31/78 [47:36<1:12:11, 92.15s/it, elapsed=0:46:03, loss=2.6467, lr=[2.3661971830985912e-07, 3.943661971830986e-05]]Epoch 1/1:  40%|███▉      | 31/78 [49:08<1:12:11, 92.15s/it, elapsed=0:49:08, loss=2.6527, lr=[2.323943661971831e-07, 3.8732394366197184e-05]]Epoch 1/1:  41%|████      | 32/78 [49:08<1:10:39, 92.15s/it, elapsed=0:49:08, loss=2.6527, lr=[2.323943661971831e-07, 3.8732394366197184e-05]]Epoch 1/1:  41%|████      | 32/78 [50:40<1:10:39, 92.15s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                  Epoch 1/1:  42%|████▏     | 33/78 [50:40<1:09:06, 92.15s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  42%|████▏     | 33/78 [52:12<1:09:06, 92.15s/it, elapsed=0:52:12, loss=2.6327, lr=[2.2816901408450703e-07, 3.802816901408451e-05]]Epoch 1/1:  44%|████▎     | 34/78 [52:12<1:07:34, 92.14s/it, elapsed=0:52:12, loss=2.6327, lr=[2.2816901408450703e-07, 3.802816901408451e-05]]Epoch 1/1:  45%|████▍     | 35/78 [53:44<1:06:01, 92.13s/it, elapsed=0:52:12, loss=2.6327, lr=[2.2816901408450703e-07, 3.802816901408451e-05]]Epoch 1/1:  45%|████▍     | 35/78 [55:16<1:06:01, 92.13s/it, elapsed=0:55:16, loss=2.6404, lr=[2.2394366197183097e-07, 3.7323943661971835e-05]]Epoch 1/1:  46%|████▌     | 36/78 [55:16<1:04:30, 92.14s/it, elapsed=0:55:16, loss=2.6404, lr=[2.2394366197183097e-07, 3.7323943661971835e-05]]Epoch 1/1:  47%|████▋     | 37/78 [56:48<1:02:58, 92.15s/it, elapsed=0:55:16, loss=2.6404, lr=[2.2394366197183097e-07, 3.7323943661971835e-05]]Epoch 1/1:  47%|████▋     | 37/78 [58:21<1:02:58, 92.15s/it, elapsed=0:58:21, loss=2.6469, lr=[2.1971830985915493e-07, 3.661971830985916e-05]] Epoch 1/1:  49%|████▊     | 38/78 [58:21<1:01:26, 92.15s/it, elapsed=0:58:21, loss=2.6469, lr=[2.1971830985915493e-07, 3.661971830985916e-05]]Epoch 1/1:  50%|█████     | 39/78 [59:53<59:53, 92.14s/it, elapsed=0:58:21, loss=2.6469, lr=[2.1971830985915493e-07, 3.661971830985916e-05]]  Epoch 1/1:  50%|█████     | 39/78 [1:01:25<59:53, 92.14s/it, elapsed=1:01:25, loss=2.6600, lr=[2.1549295774647887e-07, 3.5915492957746486e-05]]Epoch 1/1:  51%|█████▏    | 40/78 [1:01:25<58:21, 92.14s/it, elapsed=1:01:25, loss=2.6600, lr=[2.1549295774647887e-07, 3.5915492957746486e-05]]Epoch 1/1:  51%|█████▏    | 40/78 [1:02:57<58:21, 92.14s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                   Epoch 1/1:  53%|█████▎    | 41/78 [1:02:57<56:49, 92.15s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  53%|█████▎    | 41/78 [1:04:29<56:49, 92.15s/it, elapsed=1:04:29, loss=2.6567, lr=[2.1126760563380278e-07, 3.5211267605633805e-05]]Epoch 1/1:  54%|█████▍    | 42/78 [1:04:29<55:17, 92.15s/it, elapsed=1:04:29, loss=2.6567, lr=[2.1126760563380278e-07, 3.5211267605633805e-05]]Epoch 1/1:  55%|█████▌    | 43/78 [1:06:01<53:44, 92.14s/it, elapsed=1:04:29, loss=2.6567, lr=[2.1126760563380278e-07, 3.5211267605633805e-05]]Epoch 1/1:  55%|█████▌    | 43/78 [1:07:34<53:44, 92.14s/it, elapsed=1:07:34, loss=2.6576, lr=[2.0704225352112675e-07, 3.450704225352113e-05]] Epoch 1/1:  56%|█████▋    | 44/78 [1:07:34<52:12, 92.15s/it, elapsed=1:07:34, loss=2.6576, lr=[2.0704225352112675e-07, 3.450704225352113e-05]]Epoch 1/1:  58%|█████▊    | 45/78 [1:09:06<50:40, 92.14s/it, elapsed=1:07:34, loss=2.6576, lr=[2.0704225352112675e-07, 3.450704225352113e-05]]Epoch 1/1:  58%|█████▊    | 45/78 [1:10:38<50:40, 92.14s/it, elapsed=1:10:38, loss=2.6443, lr=[2.028169014084507e-07, 3.380281690140845e-05]] Epoch 1/1:  59%|█████▉    | 46/78 [1:10:38<49:08, 92.14s/it, elapsed=1:10:38, loss=2.6443, lr=[2.028169014084507e-07, 3.380281690140845e-05]]Epoch 1/1:  60%|██████    | 47/78 [1:12:10<47:36, 92.14s/it, elapsed=1:10:38, loss=2.6443, lr=[2.028169014084507e-07, 3.380281690140845e-05]]Epoch 1/1:  60%|██████    | 47/78 [1:13:42<47:36, 92.14s/it, elapsed=1:13:42, loss=2.6214, lr=[1.9859154929577463e-07, 3.3098591549295775e-05]]Epoch 1/1:  62%|██████▏   | 48/78 [1:13:42<46:04, 92.15s/it, elapsed=1:13:42, loss=2.6214, lr=[1.9859154929577463e-07, 3.3098591549295775e-05]]Epoch 1/1:  62%|██████▏   | 48/78 [1:15:14<46:04, 92.15s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                   Epoch 1/1:  63%|██████▎   | 49/78 [1:15:14<44:32, 92.15s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  63%|██████▎   | 49/78 [1:16:46<44:32, 92.15s/it, elapsed=1:16:46, loss=2.6376, lr=[1.943661971830986e-07, 3.23943661971831e-05]]Epoch 1/1:  64%|██████▍   | 50/78 [1:16:46<42:59, 92.14s/it, elapsed=1:16:46, loss=2.6376, lr=[1.943661971830986e-07, 3.23943661971831e-05]]Epoch 1/1:  65%|██████▌   | 51/78 [1:18:19<41:27, 92.14s/it, elapsed=1:16:46, loss=2.6376, lr=[1.943661971830986e-07, 3.23943661971831e-05]]Epoch 1/1:  65%|██████▌   | 51/78 [1:19:51<41:27, 92.14s/it, elapsed=1:19:51, loss=2.6512, lr=[1.9014084507042253e-07, 3.1690140845070426e-05]]Epoch 1/1:  67%|██████▋   | 52/78 [1:19:51<39:55, 92.14s/it, elapsed=1:19:51, loss=2.6512, lr=[1.9014084507042253e-07, 3.1690140845070426e-05]]Epoch 1/1:  68%|██████▊   | 53/78 [1:21:23<38:23, 92.12s/it, elapsed=1:19:51, loss=2.6512, lr=[1.9014084507042253e-07, 3.1690140845070426e-05]]Epoch 1/1:  68%|██████▊   | 53/78 [1:22:55<38:23, 92.12s/it, elapsed=1:22:55, loss=2.6717, lr=[1.8591549295774645e-07, 3.0985915492957744e-05]]Epoch 1/1:  69%|██████▉   | 54/78 [1:22:55<36:51, 92.14s/it, elapsed=1:22:55, loss=2.6717, lr=[1.8591549295774645e-07, 3.0985915492957744e-05]]Epoch 1/1:  71%|███████   | 55/78 [1:24:27<35:18, 92.12s/it, elapsed=1:22:55, loss=2.6717, lr=[1.8591549295774645e-07, 3.0985915492957744e-05]]Epoch 1/1:  71%|███████   | 55/78 [1:25:59<35:18, 92.12s/it, elapsed=1:25:59, loss=2.6545, lr=[1.816901408450704e-07, 3.028169014084507e-05]]  Epoch 1/1:  72%|███████▏  | 56/78 [1:25:59<33:46, 92.12s/it, elapsed=1:25:59, loss=2.6545, lr=[1.816901408450704e-07, 3.028169014084507e-05]]Epoch 1/1:  72%|███████▏  | 56/78 [1:27:31<33:46, 92.12s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]                                 Epoch 1/1:  73%|███████▎  | 57/78 [1:27:31<32:14, 92.13s/it, mem_alloc=3457.17 MB, mem_reserved=46736.00 MB]Epoch 1/1:  73%|███████▎  | 57/78 [1:29:03<32:14, 92.13s/it, elapsed=1:29:03, loss=2.6482, lr=[1.7746478873239435e-07, 2.9577464788732395e-05]]Epoch 1/1:  74%|███████▍  | 58/78 [1:29:03<30:42, 92.13s/it, elapsed=1:29:03, loss=2.6482, lr=[1.7746478873239435e-07, 2.9577464788732395e-05]]Epoch 1/1:  76%|███████▌  | 59/78 [1:30:36<29:10, 92.15s/it, elapsed=1:29:03, loss=2.6482, lr=[1.7746478873239435e-07, 2.9577464788732395e-05]]Epoch 1/1:  76%|███████▌  | 59/78 [1:32:08<29:10, 92.15s/it, elapsed=1:32:08, loss=2.6492, lr=[1.7323943661971832e-07, 2.887323943661972e-05]] Epoch 1/1:  77%|███████▋  | 60/78 [1:32:08<27:38, 92.14s/it, elapsed=1:32:08, loss=2.6492, lr=[1.7323943661971832e-07, 2.887323943661972e-05]]Epoch 1/1:  78%|███████▊  | 61/78 [1:33:40<26:06, 92.14s/it, elapsed=1:32:08, loss=2.6492, lr=[1.7323943661971832e-07, 2.887323943661972e-05]]Epoch 1/1:  78%|███████▊  | 61/78 [1:35:12<26:06, 92.14s/it, elapsed=1:35:12, loss=2.6602, lr=[1.6901408450704225e-07, 2.8169014084507046e-05]]Epoch 1/1:  79%|███████▉  | 62/78 [1:35:12<24:34, 92.15s/it, elapsed=1:35:12, loss=2.6602, lr=[1.6901408450704225e-07, 2.8169014084507046e-05]]Epoch 1/1:  81%|████████  | 63/78 [1:36:44<23:02, 92.14s/it, elapsed=1:35:12, loss=2.6602, lr=[1.6901408450704225e-07, 2.8169014084507046e-05]]Epoch 1/1:  81%|████████  | 63/78 [1:38:16<23:02, 92.14s/it, elapsed=1:38:16, loss=2.6634, lr=[1.647887323943662e-07, 2.746478873239437e-05]]  Epoch 1/1:  82%|████████▏ | 64/78 [1:38:16<21:30, 92.15s/it, elapsed=1:38:16, loss=2.6634, lr=[1.647887323943662e-07, 2.746478873239437e-05]]
+  0%|          | 0/27 [00:00<?, ?it/s][A`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/home/e/e1344659/miniconda3/envs/moelora/lib/python3.10/site-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+
+  4%|▎         | 1/27 [00:42<18:18, 42.24s/it][A
+  7%|▋         | 2/27 [01:24<17:33, 42.14s/it][A
+ 11%|█         | 3/27 [02:06<16:50, 42.12s/it][A
+ 15%|█▍        | 4/27 [02:48<16:08, 42.11s/it][A
+ 19%|█▊        | 5/27 [03:30<15:26, 42.10s/it][A
+ 22%|██▏       | 6/27 [04:12<14:44, 42.10s/it][A
+ 26%|██▌       | 7/27 [04:54<14:01, 42.09s/it][A
+ 30%|██▉       | 8/27 [05:36<13:19, 42.10s/it][A
+ 33%|███▎      | 9/27 [06:18<12:37, 42.11s/it][A
+ 37%|███▋      | 10/27 [07:01<11:55, 42.10s/it][A
+ 41%|████      | 11/27 [07:43<11:13, 42.09s/it][A
+ 44%|████▍     | 12/27 [08:25<10:31, 42.08s/it][A
+ 48%|████▊     | 13/27 [09:07<09:49, 42.10s/it][A
+ 52%|█████▏    | 14/27 [09:49<09:07, 42.09s/it][A
+ 56%|█████▌    | 15/27 [10:31<08:25, 42.08s/it][A
+ 59%|█████▉    | 16/27 [11:13<07:43, 42.10s/it][A
+ 63%|██████▎   | 17/27 [11:55<07:01, 42.10s/it][A
+ 67%|██████▋   | 18/27 [12:37<06:19, 42.12s/it][A
+ 70%|███████   | 19/27 [13:20<05:36, 42.12s/it][A
+ 74%|███████▍  | 20/27 [14:02<04:54, 42.10s/it][A
+ 78%|███████▊  | 21/27 [14:44<04:12, 42.09s/it][A
+ 81%|████████▏ | 22/27 [15:26<03:30, 42.10s/it][A
+ 85%|████████▌ | 23/27 [16:08<02:48, 42.10s/it][A
+ 89%|████████▉ | 24/27 [16:50<02:06, 42.09s/it][A
+ 93%|█████████▎| 25/27 [17:32<01:24, 42.11s/it][A
+ 96%|█████████▋| 26/27 [18:14<00:42, 42.10s/it][A
+100%|██████████| 27/27 [18:45<00:00, 38.68s/it][A100%|██████████| 27/27 [18:45<00:00, 41.68s/it]
+Epoch 1/1:  82%|████████▏ | 64/78 [1:57:02<25:36, 109.73s/it, elapsed=1:38:16, loss=2.6634, lr=[1.647887323943662e-07, 2.746478873239437e-05]]
+---Test---
+Steps:64; Epoch:999; Accuracy:0.0
+---Test---
+Saving the trained model...
+
+---done---
+
+All tasks completed successfully!
