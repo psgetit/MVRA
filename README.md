@@ -1,6 +1,3 @@
-# A Stronger Mixture of Low-Rank Experts for Fine-Tuning Foundation Models
-Source code of paper: A Stronger Mixture of Low-Rank Experts for Fine-Tuning Foundation Models.
-
 ## Install
 1. Clone this repository
    ```bash
@@ -32,18 +29,6 @@ Source code of paper: A Stronger Mixture of Low-Rank Experts for Fine-Tuning Fou
    ```
 
 ## How to Run
-```bash
-# CUDA_VISIBLE_DEVICES=[GPU ID] python -m torch.distributed.launch --nproc_per_node 1 [TRAINING_SCRIPT] [DATASET] [OPTIMIZER] [METHOD]
+eg. python train.py --rank 32 --method vera --d 0.5 --number_expert 8 --top_k 1 --initial_gate_lr 1e-7 --initial_expert_lr 1e-4 --warm_up 60 --total_gradient_update_steps 1500 --eval_steps 2000 --dataset_name 'CommonsenseQA' --scheduler_max_steps 1510 --batch_size_256_plus_10 4 --accumulated_steps_256_plus_10 4
 
-# train MoE-LoRA with per-expert classic Riemannian preconditioners (the SGD optimizer)
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 train_llama.py ScienceQA sgd riemannian
 
-# train MoE-LoRA with per-expert classic Riemannian preconditioners (the AdamW optimizer)
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 train_llama.py ScienceQA adamw riemannian
-
-# train MoE-LoRA with our method (the SGD optimizer)
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 train_llama.py ScienceQA sgd ourmethod
-
-# train MoE-LoRA with our method (the AdamW optimizer)
-CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 train_llama.py ScienceQA adamw ourmethod
-```
